@@ -161,6 +161,8 @@ class ShoppingFragment : Fragment() {
                 productRepository.deleteAllProducts()
             }
             getShoppingListFromDatabase()
+
+            
         }
     }
 }
